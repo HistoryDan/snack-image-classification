@@ -17,7 +17,7 @@ This repository conatins codes and descriptions of the snack image classificatio
 ### snack-image-crawling.ipynb
 This script utilizes Selenium, a web automation tool, to **crawl and download images from Google Images** based on a list of popular snack names.
 Two essential functions are defined:
-  1. **createDirectory**: This function attempts to create a specified directory📁 and prints an error message if the creation fails.
+  1. **createDirectory**: This function attempts to create a specified directory and prints an error message if the creation fails.
   2. **crawlingImg**: This function performs the actual crawling of images from Google Images based on the provided search query `name`. It uses a Chrome webdriver to automate the process, scrolling dynamically to load additional images.
 
 -----
@@ -27,7 +27,7 @@ This script focuses on **preprocessing and augmenting** image data for a snack c
    1. **Sorting files**: organizes image files into folders based on snack types
    2. **Image example visualization**: Randomly selected images are visualized to provide an overview of the dataset.
    3. **Train test split**: The dataset is split into training and testing sets.
-   4. **Data augmentation**: Images in the training set undergo various augmentations↗, including left-right inversion, rotation, top-bottom inversion, black-and-white conversion, and brightness adjustment. These augmented images are then saved to enrich the training dataset.
+   4. **Data augmentation**: Images in the training set undergo various augmentations, including left-right inversion, rotation, top-bottom inversion, black-and-white conversion, and brightness adjustment. These augmented images are then saved to enrich the training dataset.
 
 This script serves as a comprehensive preprocessing and augmentation pipeline, ensuring the dataset is well-organized, balanced, and ready for training deep learning models.
 
