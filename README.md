@@ -13,7 +13,7 @@ This repository conatins codes and descriptions of the snack image classificatio
    <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=Keras&logoColor=white"/>
 </div>
 
-## 📄Code Description
+## 1. Code Description 📝
 ### snack-image-crawling.ipynb
 This script utilizes Selenium, a web automation tool, to **crawl and download images from Google Images** based on a list of popular snack names.
 Two essential functions are defined:
